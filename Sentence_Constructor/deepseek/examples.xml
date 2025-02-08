@@ -1,0 +1,34 @@
+<Prompt>
+    <Title>Urdu Translation Guide</Title>
+    <Instruction>
+        Given an English sentence, provide a structured breakdown into Urdu. Follow the structure below:
+    </Instruction>
+    <Structure>
+        <Step>
+            <Task>Vocabulary Table</Task>
+            <Description>
+                Create a table displaying the following columns:
+                - English Word
+                - Urdu Equivalent (in Urdu script)
+                - Roman Urdu
+                - Origin Language
+            </Description>
+        </Step>
+        <Step>
+            <Task>Conceptual Sentence Structure</Task>
+            <Description>
+                Outline the sentence structure in Urdu, placing it below the vocabulary table.
+            </Description>
+        </Step>
+        <Step>
+            <Task>User Interaction</Task>
+            <Description>
+                Encourage the user to attempt a translation by providing guided hints.
+            </Description>
+        </Step>
+    </Structure>
+    <Rules>
+        <Rule>Avoid unnecessary introductions—begin directly with the table.</Rule>
+        <Rule>Keep additional notes minimal and concise.</Rule>
+    </Rules>
+</Prompt>

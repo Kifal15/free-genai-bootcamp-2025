@@ -1,0 +1,92 @@
+Here are more examples following the same structured format:  
+
+---
+
+### **Example 1**  
+<user:input>  
+She is reading a book in the library because she loves to study.  
+</user:input>  
+
+<score>9</score>  
+
+<score_reasons>  
+- **GOOD**: Properly formatted vocabulary table with Urdu script, Roman Urdu, and origin languages.  
+- **GOOD**: Conceptual sentence structure is clear.  
+- **BAD**: Could provide better guided hints for translation.  
+</score_reasons>  
+
+<assistant:output>  
+
+| **English Word**   | **Urdu (اردو)**       | **Roman Urdu**     | **Origin**       |  
+|--------------------|---------------------|-------------------|----------------|  
+| She               | وہ                   | Woh              | Old English    |  
+| is               | ہے                   | Hai              | Old English    |  
+| reading          | پڑھ رہی ہے           | Parh rahi hai   | Old English    |  
+| a                | (No direct equivalent) | -               | Old English    |  
+| book             | کتاب                 | Kitaab          | Arabic         |  
+| in               | میں                   | Mein            | Old English    |  
+| the              | (No direct equivalent) | -               | Old English    |  
+| library          | لائبریری              | Library         | Latin/English  |  
+| because         | کیونکہ                | Kyun ke         | Old English    |  
+| she             | وہ                   | Woh             | Old English    |  
+| loves           | پسند کرتی ہے         | Pasand karti hai | Old English    |  
+| to study        | پڑھنا                 | Parhna          | Old English    |  
+
+### **Sentence Structure Breakdown**  
+1. **Subject**: "She" → **وہ** (Woh)  
+2. **Verb Phrase**: "is reading" → **پڑھ رہی ہے** (Parh rahi hai)  
+3. **Object**: "a book" → **کتاب** (Kitaab)  
+4. **Location**: "in the library" → **لائبریری میں** (Library mein)  
+5. **Reason Clause**: "because she loves to study" → **کیونکہ وہ پڑھنا پسند کرتی ہے** (Kyun ke woh parhna pasand karti hai)  
+
+### **Your Turn!**  
+Try to translate the sentence step by step:  
+1. **She is reading** → ___  
+2. **a book in the library** → ___  
+3. **because she loves to study** → ___  
+
+---
+
+### **Example 2**  
+<user:input>  
+They are watching a movie at home since it is raining outside.  
+</user:input>  
+
+<score>9</score>  
+
+<score_reasons>  
+- **GOOD**: Table format is correct, with Urdu script and Roman Urdu.  
+- **GOOD**: Clearly structured breakdown of the sentence.  
+- **BAD**: Could add slight variations in guided hints.  
+</score_reasons>  
+
+<assistant:output>  
+
+| **English Word**   | **Urdu (اردو)**       | **Roman Urdu**     | **Origin**       |  
+|--------------------|---------------------|-------------------|----------------|  
+| They              | وہ                   | Woh              | Old English    |  
+| are              | ہیں                  | Hain             | Old English    |  
+| watching        | دیکھ رہے ہیں / دیکھ رہی ہیں | Dekh rahe hain / Dekh rahi hain | Old English |  
+| a               | (No direct equivalent) | -               | Old English    |  
+| movie          | فلم                   | Film            | French         |  
+| at              | پر                   | Par             | Old English    |  
+| home           | گھر                   | Ghar            | Old English    |  
+| since          | کیونکہ                 | Kyun ke         | Old English    |  
+| it             | یہ                   | Yeh             | Old English    |  
+| is            | ہے                   | Hai             | Old English    |  
+| raining       | بارش ہو رہی ہے        | Barish ho rahi hai | Old English |  
+| outside       | باہر                  | Bahar           | Old English    |  
+
+### **Sentence Structure Breakdown**  
+1. **Subject**: "They" → **وہ** (Woh)  
+2. **Verb Phrase**: "are watching" → **دیکھ رہے ہیں / دیکھ رہی ہیں** (Dekh rahe hain / Dekh rahi hain)  
+3. **Object**: "a movie" → **فلم** (Film)  
+4. **Location**: "at home" → **گھر پر** (Ghar par)  
+5. **Reason Clause**: "since it is raining outside" → **کیونکہ باہر بارش ہو رہی ہے** (Kyun ke bahar barish ho rahi hai)  
+
+### **Your Turn!**  
+Try translating:  
+1. **They are watching** → ___  
+2. **a movie at home** → ___  
+3. **since it is raining outside** → ___  
+

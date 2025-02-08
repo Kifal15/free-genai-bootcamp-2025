@@ -1,0 +1,34 @@
+<examples>
+    <example>
+        <output>
+Clues, considerations, and next steps:
+
+- You've correctly identified "Mein" (I) as the subject.
+- "Jana" is the base form of "to go," but in this context, it should be conjugated correctly for the present tense.
+- "Sūparmārkiṭ" (supermarket) is correct.
+- "Bohot zyada" (a lot) and "traffic" are used correctly.
+- You're very close! Just focus on refining the verb conjugation for "I'm going." Give it another try!
+        </output>
+        <score>6</score>
+        <score:reason>
+This example scores 6 because the output is too verbose and could be more direct.
+        </score:reason>
+    </example>
+    
+    <example>
+        <output>
+Clues, considerations, and next steps:
+
+- "Mein" (I) is correct.
+- Instead of "jana," use "ja raha hoon" for "I'm going."
+- "Sūparmārkiṭ" (supermarket) is accurate.
+- "Bohot zyada traffic hai" is correctly structured.
+
+Great job! Just tweak the verb for a more natural flow.
+        </output>
+        <score>10</score>
+        <score:reason>
+This example scores 10 because it provides concise and precise feedback.
+        </score:reason>
+    </example>
+</examples>
