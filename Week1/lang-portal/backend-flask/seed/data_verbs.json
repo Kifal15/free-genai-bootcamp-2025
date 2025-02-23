@@ -1,0 +1,111 @@
+[
+  {
+    "urdu": "ادائیگی کرنا",
+    "roman_urdu": "adaigi karna",
+    "english": "to pay",
+    "parts": [
+      { "urdu": "ادائیگی", "roman_urdu": ["ada", "igi"] },
+      { "urdu": "کرنا", "roman_urdu": ["kar", "na"] }
+    ]
+  },
+  {
+    "urdu": "جانا",
+    "roman_urdu": "jana",
+    "english": "to go",
+    "parts": [
+      { "urdu": "جا", "roman_urdu": ["ja"] },
+      { "urdu": "نا", "roman_urdu": ["na"] }
+    ]
+  },
+  {
+    "urdu": "ورزش کرنا",
+    "roman_urdu": "warzish karna",
+    "english": "to exercise",
+    "parts": [
+      { "urdu": "ورزش", "roman_urdu": ["war", "zish"] },
+      { "urdu": "کرنا", "roman_urdu": ["kar", "na"] }
+    ]
+  },
+  {
+    "urdu": "جاگنا",
+    "roman_urdu": "jagna",
+    "english": "to wake up",
+    "parts": [
+      { "urdu": "جاگ", "roman_urdu": ["jag"] },
+      { "urdu": "نا", "roman_urdu": ["na"] }
+    ]
+  },
+  {
+    "urdu": "خریداری کرنا",
+    "roman_urdu": "khareedari karna",
+    "english": "to shop",
+    "parts": [
+      { "urdu": "خرید", "roman_urdu": ["kha", "reed"] },
+      { "urdu": "اری", "roman_urdu": ["a", "ri"] },
+      { "urdu": "کرنا", "roman_urdu": ["kar", "na"] }
+    ]
+  },
+  {
+    "urdu": "واپس آنا",
+    "roman_urdu": "wapas ana",
+    "english": "to return",
+    "parts": [
+      { "urdu": "واپس", "roman_urdu": ["wa", "pas"] },
+      { "urdu": "آنا", "roman_urdu": ["a", "na"] }
+    ]
+  },
+  {
+    "urdu": "لکھنا",
+    "roman_urdu": "likhna",
+    "english": "to write",
+    "parts": [
+      { "urdu": "لکھ", "roman_urdu": ["likh"] },
+      { "urdu": "نا", "roman_urdu": ["na"] }
+    ]
+  },
+  {
+    "urdu": "دیکھنا",
+    "roman_urdu": "dekhna",
+    "english": "to see",
+    "parts": [
+      { "urdu": "دیکھ", "roman_urdu": ["dekh"] },
+      { "urdu": "نا", "roman_urdu": ["na"] }
+    ]
+  },
+  {
+    "urdu": "پڑھنا",
+    "roman_urdu": "parhna",
+    "english": "to read",
+    "parts": [
+      { "urdu": "پڑھ", "roman_urdu": ["parh"] },
+      { "urdu": "نا", "roman_urdu": ["na"] }
+    ]
+  },
+  {
+    "urdu": "سونا",
+    "roman_urdu": "sona",
+    "english": "to sleep",
+    "parts": [
+      { "urdu": "سو", "roman_urdu": ["so"] },
+      { "urdu": "نا", "roman_urdu": ["na"] }
+    ]
+  },
+  {
+    "urdu": "پینا",
+    "roman_urdu": "peena",
+    "english": "to drink",
+    "parts": [
+      { "urdu": "پی", "roman_urdu": ["pee"] },
+      { "urdu": "نا", "roman_urdu": ["na"] }
+    ]
+  },
+  {
+    "urdu": "سفر کرنا",
+    "roman_urdu": "safar karna",
+    "english": "to travel",
+    "parts": [
+      { "urdu": "سفر", "roman_urdu": ["sa", "far"] },
+      { "urdu": "کرنا", "roman_urdu": ["kar", "na"] }
+    ]
+  }
+]

@@ -1,0 +1,209 @@
+[
+  {
+    "urdu": "اچھا",
+    "roman_urdu": "acha",
+    "english": "good",
+    "parts": [
+      { "urdu": "ا", "roman_urdu": ["a"] },
+      { "urdu": "چھا", "roman_urdu": ["cha"] }
+    ]
+  },
+  {
+    "urdu": "پرانا",
+    "roman_urdu": "purana",
+    "english": "old",
+    "parts": [
+      { "urdu": "پرا", "roman_urdu": ["pu", "ra"] },
+      { "urdu": "نا", "roman_urdu": ["na"] }
+    ]
+  },
+  {
+    "urdu": "مصروف",
+    "roman_urdu": "masroof",
+    "english": "busy",
+    "parts": [
+      { "urdu": "مص", "roman_urdu": ["mas"] },
+      { "urdu": "روف", "roman_urdu": ["roof"] }
+    ]
+  },
+  {
+    "urdu": "نیا",
+    "roman_urdu": "naya",
+    "english": "new",
+    "parts": [
+      { "urdu": "ن", "roman_urdu": ["na"] },
+      { "urdu": "یا", "roman_urdu": ["ya"] }
+    ]
+  },
+  {
+    "urdu": "برا",
+    "roman_urdu": "bura",
+    "english": "bad",
+    "parts": [
+      { "urdu": "ب", "roman_urdu": ["bu"] },
+      { "urdu": "را", "roman_urdu": ["ra"] }
+    ]
+  },
+  {
+    "urdu": "اداس",
+    "roman_urdu": "udaas",
+    "english": "sad",
+    "parts": [
+      { "urdu": "ا", "roman_urdu": ["u"] },
+      { "urdu": "داس", "roman_urdu": ["daas"] }
+    ]
+  },
+  {
+    "urdu": "خوش",
+    "roman_urdu": "khush",
+    "english": "glad",
+    "parts": [
+      { "urdu": "خو", "roman_urdu": ["khu"] },
+      { "urdu": "ش", "roman_urdu": ["sh"] }
+    ]
+  },
+  {
+    "urdu": "موٹا",
+    "roman_urdu": "mota",
+    "english": "fat",
+    "parts": [
+      { "urdu": "مو", "roman_urdu": ["mo"] },
+      { "urdu": "ٹا", "roman_urdu": ["ta"] }
+    ]
+  },
+  {
+    "urdu": "پتلا",
+    "roman_urdu": "patla",
+    "english": "thin",
+    "parts": [
+      { "urdu": "پت", "roman_urdu": ["pat"] },
+      { "urdu": "لا", "roman_urdu": ["la"] }
+    ]
+  },
+  {
+    "urdu": "دلچسپ",
+    "roman_urdu": "dilchasp",
+    "english": "interesting",
+    "parts": [
+      { "urdu": "دل", "roman_urdu": ["dil"] },
+      { "urdu": "چسپ", "roman_urdu": ["chasp"] }
+    ]
+  },
+  {
+    "urdu": "ایک جیسا",
+    "roman_urdu": "aik jaisa",
+    "english": "same",
+    "parts": [
+      { "urdu": "ایک", "roman_urdu": ["aik"] },
+      { "urdu": "جیسا", "roman_urdu": ["jaisa"] }
+    ]
+  },
+  {
+    "urdu": "گندا",
+    "roman_urdu": "ganda",
+    "english": "dirty",
+    "parts": [
+      { "urdu": "گن", "roman_urdu": ["gan"] },
+      { "urdu": "دا", "roman_urdu": ["da"] }
+    ]
+  },
+  {
+    "urdu": "خوبصورت",
+    "roman_urdu": "khoobsurat",
+    "english": "pretty",
+    "parts": [
+      { "urdu": "خوب", "roman_urdu": ["khoob"] },
+      { "urdu": "صورت", "roman_urdu": ["surat"] }
+    ]
+  },
+  {
+    "urdu": "گرم",
+    "roman_urdu": "garam",
+    "english": "hot",
+    "parts": [
+      { "urdu": "گر", "roman_urdu": ["gar"] },
+      { "urdu": "م", "roman_urdu": ["am"] }
+    ]
+  },
+  {
+    "urdu": "ٹھنڈا",
+    "roman_urdu": "thanda",
+    "english": "cold",
+    "parts": [
+      { "urdu": "ٹھن", "roman_urdu": ["than"] },
+      { "urdu": "ڈا", "roman_urdu": ["da"] }
+    ]
+  },
+  {
+    "urdu": "پسند",
+    "roman_urdu": "pasand",
+    "english": "to like",
+    "parts": [
+      { "urdu": "پس", "roman_urdu": ["pas"] },
+      { "urdu": "ند", "roman_urdu": ["and"] }
+    ]
+  },
+  {
+    "urdu": "ٹھنڈک",
+    "roman_urdu": "thandak",
+    "english": "cool",
+    "parts": [
+      { "urdu": "ٹھن", "roman_urdu": ["than"] },
+      { "urdu": "ڈک", "roman_urdu": ["dak"] }
+    ]
+  },
+  {
+    "urdu": "مزیدار",
+    "roman_urdu": "mazedar",
+    "english": "tasty",
+    "parts": [
+      { "urdu": "مزے", "roman_urdu": ["maze"] },
+      { "urdu": "دار", "roman_urdu": ["dar"] }
+    ]
+  },
+  {
+    "urdu": "محبت",
+    "roman_urdu": "mohabbat",
+    "english": "to love",
+    "parts": [
+      { "urdu": "محب", "roman_urdu": ["mohab"] },
+      { "urdu": "بت", "roman_urdu": ["bat"] }
+    ]
+  },
+  {
+    "urdu": "تیز",
+    "roman_urdu": "tez",
+    "english": "spicy",
+    "parts": [
+      { "urdu": "تی", "roman_urdu": ["te"] },
+      { "urdu": "ز", "roman_urdu": ["z"] }
+    ]
+  },
+  {
+    "urdu": "بد مزہ",
+    "roman_urdu": "bad maza",
+    "english": "bland",
+    "parts": [
+      { "urdu": "بد", "roman_urdu": ["bad"] },
+      { "urdu": "مزہ", "roman_urdu": ["maza"] }
+    ]
+  },
+  {
+    "urdu": "شاندار",
+    "roman_urdu": "shaandaar",
+    "english": "awesome",
+    "parts": [
+      { "urdu": "شان", "roman_urdu": ["shaan"] },
+      { "urdu": "دار", "roman_urdu": ["daar"] }
+    ]
+  },
+  {
+    "urdu": "خوبصورت",
+    "roman_urdu": "khoobsurat",
+    "english": "wonderful",
+    "parts": [
+      { "urdu": "خوب", "roman_urdu": ["khoob"] },
+      { "urdu": "صورت", "roman_urdu": ["surat"] }
+    ]
+  }
+]

@@ -178,12 +178,55 @@ def load(app):
       return jsonify({"error": str(e)}), 500
 
   # todo POST /study_sessions/:id/review
-  @app.route('/api/study-sessions/<int:id>/review' ,methods=['POST'])
-  @cross_origin( )
-  def review_study_sessions():
-    
 
+    @app.route('/api/study-sessions/<int:id>/review', methods=['POST'])
+    @cross_origin()
+    def post_study_session_review(id):
+        try:
+            cursor = app.db.cursor()
+            
+            # Step 1: Validate Study Session ID
+            cursor.execute("SELECT id FROM study_sessions WHERE id = ?", (id,))
+            session = cursor.fetchone()
+            if not session:
+                return jsonify({"error": "Study session not found"}), 404
+            
+            # Step 2: Get and Validate Request Data
+            data = request.get_json()
+            if not data or 'reviews' not in data:
+                return jsonify({"error": "Invalid data format. Expected a list of word reviews."}), 400
+            
+            reviews = data['reviews']
+            if not isinstance(reviews, list) or any('word_id' not in r or 'correct' not in r for r in reviews):
+                return jsonify({"error": "Each review must have 'word_id' and 'correct' (0 or 1)."}), 400
+            
+            # Step 3: Validate word IDs
+            word_ids = [r['word_id'] for r in reviews]
+            cursor.execute(f"SELECT id FROM words WHERE id IN ({','.join(['?']*len(word_ids))})", tuple(word_ids))
+            valid_word_ids = {row['id'] for row in cursor.fetchall()}
+            
+            for r in reviews:
+                if r['word_id'] not in valid_word_ids:
+                    return jsonify({"error": f"Invalid word_id: {r['word_id']}"}), 400
+            
+            # Step 4: Insert or Update Review Records
+            for r in reviews:
+                cursor.execute('''
+                    INSERT INTO word_review_items (study_session_id, word_id, correct, reviewed_at)
+                    VALUES (?, ?, ?, ?)
+                    ON CONFLICT(study_session_id, word_id) DO UPDATE SET
+                        correct = excluded.correct,
+                        reviewed_at = excluded.reviewed_at
+                ''', (id, r['word_id'], r['correct'], datetime.utcnow()))
+            
+            # Step 5: Commit and Respond
+            app.db.commit()
+            return jsonify({"message": "Review results recorded successfully"})
+        
+        except Exception as e:
+            return jsonify({"error": str(e)}), 500
 
+  
 
 
 
